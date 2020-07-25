@@ -1,0 +1,23 @@
+// Place all the styles related to the blogposts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  color: darkgray; font-size: 14pt;
+  margin: 10px 20px;
+}
+#header {}
+#main {
+  width: 75%; float: left;
+}
+#side {
+  width: 20%; float: right;
+}
+
+a {
+  color: darkgray;
+  text-decoration: none;
+}
+a:hover {
+  color: darkgray;
+  text-decoration: underline;
+}
