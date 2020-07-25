@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+  get 'blogposts/index'
+  get 'blogposts/add'
+  get 'blogposts/edit'
+  get 'blogposts/delete'
+  get 'bloggenres/index'
+  get 'bloggenres/add'
+  get 'bloggenres/edit'
+  get 'blogconfigs/index'
+  get 'blogconfigs/edit'
   resources :board_messages
   resources :board_users
   resources :data_pages
